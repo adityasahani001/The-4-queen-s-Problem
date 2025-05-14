@@ -22,7 +22,6 @@ def is_safe(board, row, col):
 
     return True
 
-
 def solve_n_queens(board, col):
     if col >= len(board):
         print_board(board)
@@ -36,7 +35,6 @@ def solve_n_queens(board, col):
             board[i][col] = '.'  # Backtrack
 
     return res
-
 
 # Initialize 4x4 board
 n = 4
