@@ -2,8 +2,7 @@ def print_board(board):
     for row in board:
         print(" ".join(row))
     print("\n")
-
-
+    
 def is_safe(board, row, col):
     # Check the left side of the current row
     for i in range(col):
