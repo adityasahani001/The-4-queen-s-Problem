@@ -18,7 +18,6 @@ def is_safe(board, row, col):
     for i, j in zip(range(row, len(board), 1), range(col, -1, -1)):
         if board[i][j] == 'Q':
             return False
-
  
    return True
 
