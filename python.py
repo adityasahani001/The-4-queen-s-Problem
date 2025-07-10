@@ -35,6 +35,7 @@ def solve_n_queens(board, col):
 
     return res
 
+
 # Initialize 4x4 board
 n = 4
 board = [['.' for _ in range(n)] for _ in range(n)]
